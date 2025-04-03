@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Substance</title>
+        <link rel="stylesheet" type="text/css" href="chapter2.css">
+    </head>
+
+<body>
+    <!--FRONT PAGE TEXTS-->
+    <div class="frontpage">
+        <h1>REMEMBER YOU ARE ONE</h1>
+        <h3>THE SUBSTANCE</h3>
+    </div>
+
+    <!--HEADING SECTION (NAV BUTTONS)-->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#PLOT">&#9762; SYNOPSIS</a></li>
+                <li><a href="#CHARACTERS">&#9762; CHARACTERS</a></li>
+                <li><a href="#CASTS">&#9762; CASTS</a></li>
+                <li><a href="#KEY">&#9762;  KEY INFORMATION</a></li>
+                <li><a href="#REVIEWS">&#9733; REVIEWS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--SYNOPSIS: INTRODUCTION PART-->
+
+    <div class="synopsis">
+        <h2 id="PLOT">What twisted fate awaits those who seek <i>The Substance?</i> Read the Synopsis to this mystery:</h2>
+        <p class="p-style1">
+            <b>Elisabeth Sparkle</b>, a former television star, finds herself discarded by the entertainment industry on her 50th birthday, 
+            deemed too old for the spotlight. Desperate to reclaim her youth, beauty, and relevance, she turns to an experimental 
+            serum known as "The Substance." This mysterious formula allows her to create a younger, more vibrant version of herself 
+            named <b>Sue</b>. However, the process comes with strict rules—Elisabeth and Sue must share one body, alternating consciousness 
+            every seven days. <br>
+
+            <br>At first, Elisabeth enjoys the benefits of her youthful alter ego, as Sue quickly rises to stardom, captivating audiences 
+            and industry elites. However, as Sue thrives, Elisabeth begins to deteriorate, aging at an accelerated rate each time she 
+            reclaims control of their shared body. Over time, resentment festers between them, as Sue becomes increasingly independent, 
+            reckless, and unwilling to relinquish her time in the spotlight. <br>
+            
+            <br>Desperate to maintain her newfound fame, Sue starts abusing The Substance, taking extra doses to extend her time in control. 
+            This dangerous overuse throws the delicate balance into chaos, causing Elisabeth’s body to decay unnaturally. As her 
+            desperation reaches its peak, Sue takes an extreme risk—an overdose of the serum in a final bid to permanently erase Elisabeth. 
+            Instead, the overdose triggers a horrifying consequence: the two identities merge into a grotesque, monstrous fusion of youth 
+            and decay, an abomination known as "Monstro Elisasue." <br>
+            
+            <br>The transformation reaches its climax during a highly publicized live television event, where the horrific fusion is revealed 
+            in front of an unsuspecting audience. In a nightmarish spectacle, the grotesque, deformed entity rampages on stage, exposing 
+            the brutal consequences of society’s obsession with youth and perfection. The moment serves as a macabre satire of the 
+            entertainment industry, exposing the extreme lengths individuals are willing to go to in pursuit of beauty and relevance.
+        </p>
+    </div>
+
+    <hr>
+
+    <!--CHARACTERS & CASTS PART-->
+    <div class="characters">
+        <h2>Ready to meet the dream team behind this cinematic wonder? Meet the casts and their roles!</h2>
+        <div class="container">
+            <div class="left1">
+                <h2 id="CHARACTERS">CHARACTERS</h2>
+                <ul>
+                    <li><b>Elisabeth Sparkle</b> - A once-famous TV star whose career ends due to ageism. Desperate to regain 
+                        her youth, she turns to an experimental serum called "The Substance," leading to horrifying consequences.</li>
+    
+                    <li><b>Sue</b> - The younger, more beautiful version of Elisabeth, created by the serum. She quickly rises 
+                        to fame, overshadowing Elisabeth and eventually attempting to take full control of their shared existence.</li>
+    
+                    <li><b>Dr. Vicky Vance</b> - The scientist behind "The Substance." He oversees its effects but downplays its 
+                        dangers, pushing the product despite its horrifying side effects.</li>
+    
+                    <li><b>Cassandra</b> - A mysterious woman with a connection to Elisabeth’s past, possibly representing an 
+                        ominous warning or an enabler in Elisabeth’s downfall.</li>
+    
+                    <li><b>Monstro Elisasue</b> - The grotesque fusion of Elisabeth and Sue after the serum's misuse.</li>
+                </ul>
+            </div>
+
+            <div class="right1">
+                <h2 id="CASTS">CASTS</h2>
+                <ul>
+                    <li><b>Demi Moore</b> - An iconic American actress known for Ghost (1990), A Few Good Men (1992), and 
+                        G.I. Jane (1997). She was a major Hollywood star in the ’80s and ’90s and has made a strong comeback 
+                        with The Substance. </li>
+    
+                    <li><b>Margaret Qualley</b> - A rising actress known for Maid (2021), Once Upon a Time in Hollywood (2019), 
+                        and Sanctuary (2022). She is praised for her versatile performances and is the daughter of actress Andie 
+                        MacDowell.</li>
+    
+                    <li><b>Dennis Quaid</b> - A veteran actor known for films like The Right Stuff (1983), The Parent Trap (1998), 
+                        and Far From Heaven (2002). He has had a long and varied career in Hollywood.</li>
+    
+                    <li><b>Isabelle Adjani</b> -  A legendary French actress with multiple César Awards, known for Possession (1981), 
+                        Camille Claudel (1988), and Queen Margot (1994). She is renowned for her intense and emotional performances.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!--KEY INFORMATION PART-->
+    <div class="keyinformation">
+        <h2 id="KEY">What are some basic infos you have to know about this movie?</h2>
+
+        <div class="flex-container">
+            <div class="flex-box">
+                <b>Director & Writer</b> <br>The Substance is directed by Coralie Fargeat, a French filmmaker known for her work in the 
+                horror genre. She gained international attention with her 2017 film Revenge, a brutal and feminist take on the rape-revenge 
+                genre. Fargeat is known for her strong visual style and subverting traditional horror tropes. In The Substance, she continues 
+                to explore themes of bodily autonomy, societal expectations, and the consequences of self-inflicted harm. She also wrote the 
+                screenplay, showcasing her unique voice in combining horror with satirical social commentary.
+            </div>
+
+            <div class="flex-box">
+                <b>Genre</b> <br>The film is a mix of body horror, psychological horror, and satire, a combination that makes it both unsettling 
+                and thought-provoking. It delves into the extreme consequences of the beauty industry and society's obsession with youth. The 
+                body horror elements are amplified by grotesque transformations, while the psychological horror examines the internal and 
+                emotional struggle of the characters. Additionally, there’s a sharp critique of the entertainment industry, particularly its 
+                exploitation of women as they age.
+            </div>
+
+            <div class="flex-box">
+                <b>Production</b> <br>The film was produced by Neon, a company known for its innovative and daring films, such as Parasite 
+                (2019) and The Lighthouse (2019). The production involved intense work with practical special effects, including extensive 
+                prosthetics and makeup to portray the physical transformation of the characters. The movie also utilized 21,000 liters of 
+                fake blood, making the effects both impressive and unsettling.
+            </div>
+
+            <div class="flex-box">
+                <b>Cinematography & Visual Sytles</b> <br>The Substance is noted for its striking visual style. The cinematography is lush, 
+                using vibrant colors to emphasize the contrast between youth and decay. The film often uses extreme close-ups to accentuate 
+                the grotesque and horrifying transformations of the characters, making the viewer feel uncomfortable and trapped in the 
+                experience. Fargeat's direction keeps the audience engaged with surreal, almost dreamlike sequences, creating a sense of 
+                dread that is visually intense.
+            </div>
+
+            <div class="flex-box">
+                <b>Music</b> <br>The soundtrack features a mix of eerie, atmospheric music and more upbeat, almost ironic tunes, underscoring 
+                the tension between the film’s satirical tone and its horrific content. The soundtrack contributes to the film’s unsettling 
+                vibe, with music that contrasts the on-screen chaos, reinforcing the psychological aspect of the narrative.
+            </div>
+
+            <div class="flex-box">
+                <b>Production Design</b> <br>The film’s production design carefully balances a luxurious yet sterile aesthetic, showing the 
+                high-glamour world of celebrity alongside the dark, hidden consequences of seeking perfection. The contrast in design between 
+                Elisabeth’s old life and Sue’s rise to fame adds to the tension between the two characters.
+            </div>
+
+        </div>
+    </div>
+
+    <hr>
+    <!--REVIEWS PART-->
+    <div class="reviews">
+        <h2 id="REVIEWS">Still doubting to watch? Here are some honest reviews from people!</h2>
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-box">
+            <ol>
+                <li>&#9733; 9/10 - Future Cult Classic</li>
+            </ol>
+            <p>Every scene of this film wowed me at TIFF. The casting, atmosphere, visual and sound design, 
+                music, and, of course, the symbolism of it all. Demi Moore and Margaret Qualley couldn't have been more perfectly 
+                cast as leads. Their devotion to the process and trust in their director was clear to me. Their vulnerability pulls 
+                this off and leads to a very compelling fever dream. Everyone involved should be really proud of this film. 
+                To me, it's a future cult classic.</p>
+        </div>
+
+        <div class="flex-box">
+            <ol>
+                <li>&#9733; 10/10 - My Single Most Memorable Movie Experience</li>
+            </ol>
+            <p>
+                And I've seen thousands. I estimate about 5k movies in my 39 years on this earth. I can't remember one ever hitting 
+                me this hard. I was sweating when it finished, even in a cool auditorium. Words to describe how I feel (until now, 
+                a full hour after): shocked, floored, stuck, traumatized (in a good way?). This movie affected me. It destroyed me. As 
+                soon as the credits rolled, everyone in the theater started talking to each other, saying things like wow, omg, wth, 
+                BRO, while laughing in shock. These are random people I don't know. We continued to discuss it afterwards. That's never 
+                happened to me before.
+            </p>
+        </div>
+
+        <div class="flex-box">
+            <ol>
+                <li>&#9733; 8/10 - Closed My Eyes in the Icky Parts</li>
+            </ol>
+            <p>
+                This movie really stuck with me for a while and was thought provoking. Luckily at the grotesque bits I was looking 
+                away so I wasn't plagued by nightmares like the other person I watched it with. There are very graphic scenes, but 
+                I feel it added to the campiness and I didn't see the really gross ones. The message was clear cut and necessary 
+                in this day and age. My only real question that I never felt was addressed was how separate and connected their 
+                minds were, overall they both acted as entirely separate beings and I thought part of the point was that they were 
+                the same being but the disconnect between the characters mentally and their actions and how they affected each other 
+                was surprising.
+            </p>
+        </div>
+
+        <div class="flex-box">
+            <ol>
+                <li>&#9733; 10/10 - ABSOLUTELY INSANE!</li>
+            </ol>
+            <p>
+                I was extremely hyped for that movie even though I'm not a big fan of Fargeat's debut film "Revenge". 
+                I liked her as a director, but not as a screenwriter. While that movie had interesting visual style, the 
+                screenplay was bad & stupid and the characters were uninteresting. However she improved a lot from her last movie. 
+                "The Substance" looks amazing, the shots, the score, the editing, production design and even costumes are well 
+                thought out. The screenplay is also great (she actually won an award for Best Screenplay at Cannes for "The Substance"), 
+                the decisions that characters are making are understandable - they are results from characters' determination to achieve 
+                their goals.
+            </p>
+        </div>
+
+        <div class="flex-box">
+            <ol>
+                <li>&#9733; 10/10 - Great Message That You Are Beautiful!</li>
+            </ol>
+
+            <p>
+                The better version of you is you. Not to be someone else nor someone younger or prettier. I like the message that packed 
+                in sarcastic way. At the end of the day, you need to choose, your own beauty or beauty with the monster within. Getting 
+                older and not pretty anymore is natural. Getting less famous and attractive is the consequences of life. Be grateful of 
+                what you have, and being not satisfy with what we have, only will lead us to the disaster. And remember karma does exist. 
+                You plant flowers, you will see the beauty. So, it is worth to watch. You will not see scary thing if you understand the 
+                message.
+            </p>
+        </div>
+    </div>
+
+    <hr>
+
+    <!--ENDING PART-->
+        <div class="endingcontainer">
+        <h1>IT'LL <br> CHANGE YOUR <br>LIFE.</h1>
+        <h1><a href="https://www.imdb.com/title/tt17526714/?ref_=tturv_ov" target="_blank">WATCH NOW</a></h1>
+    </div>
+</body>
+</html>
