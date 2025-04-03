@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bacio di Lasagna</title> <!--Webpage title-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Installing fonts from Google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="chapter1.css"> <!-- Link CSS Stylesheet -->
+</head>
+
+<body class="viaoda-libre-regular"> <!--Font from the CSS-->
+
+    <div class="background-section" id="homepage"> <!--background image class-->
+
+        <header> <!--heading part that includes the navigation buttons-->
+            <nav class="navbar"> <!--nav buttons-->
+                <ul>
+                    <li><a href="#homepage">Home</a></li>
+                    <li><a href="#timebox">Time Box</a></li>
+                    <li><a href="#ingredients">Ingredients</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#outcome">Outcome</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Title -->
+        <div class="title-container"> <!--container for the introduction-->
+            <h1>BACIO DI LASAGNA</h1>
+            <p>
+                Some meals are made. <b>Lasagna</b> is composed—a harmony of rich sauces, <br> 
+                delicate pasta, and molten cheese, each layer whispering a story of comfort <br>and tradition. 
+                It’s not just dinner; it’s a warm embrace, a celebration, a <br> moment worth savoring.
+                From the first bite to the last, let lasagna be your <br>invitation to slow down, indulge,
+                and taste the love baked into every layer. <br> <br> Ready to unwrap this delicious masterpiece? Scroll down!
+            </p>
+        </div>
+    </div>
+
+    <!--TIME-BOX PART-->
+    <main class="main" id="timebox"> <!--this container allows the section to be split into two parts-->
+        <div class="img"> <!--image side (left side)-->
+            <h2>BACIO DI LASAGNA</h2>
+            <img src="lasagna_picture__no_bg_.png">
+        </div>
+
+        <div class="box">  <!--the time box (right side)-->
+            <h2>TIME BOX</h2>
+
+            <hr>
+            <div class="time-container">
+                <div class="time-boxes"> <b>Prep Time</b> : 30 Minutes</div>
+                <div class="time-boxes"> <b>Cook Time</b> : 2 Hours 30 Minutes</div>
+                <div class="time-boxes"> <b>Total Time</b> : 3 Hours 15 Minutes</div>
+                <div class="time-boxes"><b>Serving Plate</b> : 12 Plates</div>
+            </div>
+        </div>
+
+    </main>
+
+    <!--INGREDIENTS PART-->
+    <section class="section">
+        <h1 id="ingredients">Ingredients Needed:</h1>
+        <div class= "ingredient-main-box">
+
+            <div class="ingredient-container">
+                <div class="ingredient-boxes">
+                    <b>MEAT</b>
+                    <hr>
+                    <ul>
+                        <li>1 Pound Sweet Italian Sausage</li>
+                        <li>3/4 Pound Lean Ground Beef</li>
+                    </ul>
+                </div>
+    
+                <div class="ingredient-boxes">
+                    <b>TOMATO PRODUCTS</b>
+                    <hr class="new1">
+                    <ul>
+                        <li>1 Can (28 Ounces) of Crushed Tomatoes</li>
+                        <li>2 Cans (6.5 Ounces) of Canned Tomato Sauce</li>
+                        <li>2 Cans (6 Ounce) of Tomato Paste</li>
+                    </ul>
+                </div>
+    
+                <div class="ingredient-boxes">
+                    <b>SPICES</b>
+                    <hr class="new1">
+                    <ul>
+                        <li>4 Tablespoons of Chopped Fresh Parsley</li>
+                        <li>1 ½ Teaspoons of Dried Basil Leaves</li>
+                        <li>½ Teaspoon of Fennel Seeds</li>
+                    </ul>
+                </div>
+    
+                <div class="ingredient-boxes">
+                    <b>EGGS & NOODLES</b>
+                    <hr class="new1">
+                    <ul>
+                        <li>1 Large Egg</li>
+                        <li>12 Lasagna Noodles</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="ingredient-container">
+                <div class="ingredient-boxes">
+                    <b>ONION & GARLIC</b>
+                    <hr class="new1">
+                    <ul>
+                        <li>1/4 Cup of Minced Onions</li>
+                        <li>2 Cloves of Garlic, Crushed</li>
+                    </ul>
+                </div>
+                <div class="ingredient-boxes">
+                    <b>SEASONINGS</b>
+                    <hr class="new1">
+                    <ul>
+                        <li>1/4 Teaspoon of Ground Blackpepper</li>
+                        <li>1 ½ Teaspoons of Salt to Taste</li>
+                        <li>2 Tablespoons of White Sugar</li>
+                    </ul>
+                </div>
+                <div class="ingredient-boxes">
+                    <b>CHEESES</b>
+                    <hr class="new1">
+                    <ul>
+                        <li>16 Ounces of Ricotta Cheese</li>
+                        <li>3/4 Pound of Mozzarella Cheese, Sliced</li>
+                        <li>3/4 Pound of Grated Parmesan Cheese</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Process Part-->
+    <section class="section-process">
+        <h1 id="process">Cooking & Layering Lasagna</h1>
+        <div class="video-container">
+            <video controls autoplay muted>
+                <source src="chapter 1 - videos/How to Make the World's Best Lasagna ｜ Allrecipes.com.mp4" type="video/mp4"> 
+            </video>
+        </div>
+
+
+        <div class="process-container">
+
+            <div class="left">
+                <h2>How to Cook Lasagna</h2>
+                <ol>
+                    <li>Make the meat sauce:
+                        <ul>
+                            <li>Cook sausage, ground beef, onion, and garlic in a <br>Dutch soven over medium heat until well browned.</li>
+                            <li>Stir in crushed tomatoes, tomato sauce, tomato paste, and water. <br>Season with sugar, 
+                                2 tablespoons parsley, basil, 1 teaspoon salt, Italian <br> seasoning, fennel seeds, and pepper. 
+                                Simmer, covered, for about 1 ½ hours, <br> stirring occasionally.</li>
+                        </ul>
+                    </li>
+    
+                    <li>Cook the noodles:
+                        <ul>
+                            <li>Bring a large pot of lightly salted water to a boil. 
+                                <br>Cook lasagna noodles in boiling water for 8 to 10 minutes. <br>Drain noodles, and rinse with cold water.</li>
+                        </ul>
+                    </li>
+    
+                    <li>Make the ricotta mixture:
+                        <ul>
+                            <li>In a mixing bowl, combine ricotta cheese with egg, <br>remaining 2 tablespoons parsley, and 1/2 teaspoon salt.</li>
+                        </ul>
+                    </li>
+    
+                    <li>Preheat the oven:
+                        <ul>
+                            <li>Preheat the oven to 375 degrees F (190 degrees C).</li>
+                        </ul>
+                    </li>
+    
+                    <li>Layer the lasagna</li>
+    
+                    <li>Cover with foil and bake: 
+                        <ul>
+                            <li>Cover with foil: to prevent sticking, either spray 
+                                <br>foil with cooking spray or make sure the foil does not touch the cheese.</li>
+                            <li>Bake in the preheated oven for 25 minutes. <br>Remove the foil and bake for an additional 25 minutes.</li>
+                        </ul>
+                    </li>
+    
+                    <li>Let the lasagna rest for 15 minutes before serving.</li>
+                </ol>
+            </div>
+    
+            <div class="right">
+                <h2>HOW TO LAYER LASAGNA</h2>
+                    <p>Here is how you properly layer your lasagna:</p>
+                    <ol>
+                        <li>Meat sauce
+                            <ul>
+                                <li>To assemble, spread 1 ½ cups of meat sauce in the bottom of a 9x13-inch baking dish.</li>
+                            </ul>
+                        </li>
+                        <li>Noodles
+                            <ul>
+                                <li>Arrange 6 noodles lengthwise over meat sauce, overlapping slightly.</li>
+                            </ul>
+                        </li>
+                        <li>Ricotta mixture
+                            <ul>
+                                <li>Spread with 1/2 of the ricotta cheese mixture.</li>
+                            </ul>
+                        </li>
+                        <li>Mozzarella slices
+                            <ul>
+                                <li>Top with 1/3 of the mozzarella cheese slices. </li>
+                            </ul>
+                        </li>
+                        <li>Meat sauce
+                            <ul>
+                                <li>Spoon 1 ½ cups meat sauce over mozzarella</li>
+                            </ul>
+                        </li>
+                        <li>Parmesan cheese
+                            <ul>
+                                <li>Sprinkle with 1/4 cup Parmesan cheese.</li>
+                            </ul>
+                        </li>
+                        <li>Repeat the layers, then top with the remaining Parmesan</li>
+                    </ol>
+            </div>
+    
+        </div>
+        
+    </section>
+
+    <!--THE END-->
+    <div class="container">
+        <div class="container-text">
+            <h1 id="outcome">The End!</h1>
+            <p>Like a warm embrace from the oven, Bacio di Lasagna isn’t just a dish—it’s a moment of pure indulgence.
+                <br> With each layer of rich sauce, tender pasta, and gooey melted cheese, it delivers a kiss of flavor that
+                <br> lingers long after the last bite.
+
+                Whether shared around the table or savored in solitude, lasagna is a love language 
+                <br>all its own. So, until next time—keep craving, keep savoring, and always say yes to one more bite. <b>Buon appetito!</b></p>
+            <p>All contents in this website is from <a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/" target="_blank">allrecipes!</a> Be sure to check them out!</p>
+        </div>
+
+        <div class="img">
+            <img src="side_lasagna_picture_no_bg.png" alt="lasagna picture">
+        </div>
+    </div>
+
+    <!--Footer End-->
+    <footer class="marquee">
+        <p>&#169; 2024 Allrecipes - All Rights Reserved | Try the World's Best Lasagna Now!</p>
+    </footer>
+</body>
+</html>
