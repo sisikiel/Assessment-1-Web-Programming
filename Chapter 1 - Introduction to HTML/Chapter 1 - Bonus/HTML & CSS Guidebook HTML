@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML & CSS Guidebook</title> <!--Name of the website-->
+        <link rel="stylesheet"type="text/css" href="chapter1bonus.css"> <!--Link to external stylesheet-->
+    </head>
+
+<body>
+    <div class="container">
+        <div class="text1">
+            <h1 id="homepage">HTML & CSS Guidebook</h1>
+            <p style="font-size: 70%;">A reference guide book for beginners.
+                <br>Submitted by Sassykiel P. Brioso
+            </p>
+        </div>
+
+        <div class="text2">
+            <hr class="vertical-hr">
+            <nav class="nav">
+                <ul style="margin-top: 12%;">
+                    <li style="padding-bottom: 3%;"><a href="HTML GUIDE.html">HTML TAGS GUIDE</a></li>
+                    <li><a href="CSS GUIDE.html">CSS PROPERTIES GUIDE</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+</body>
+</html>
