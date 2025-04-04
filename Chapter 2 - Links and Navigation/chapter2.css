@@ -1,0 +1,178 @@
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling when navigating */
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Sets a serif font stack */
+    background-color: rgb(100, 0, 0); /* Dark red background */
+    color: rgb(252, 227, 227); /* Light text for contrast */
+    overflow: visible; /* Allows content to be visible outside the body */
+}
+
+/* Navigation Button Settings */
+header {
+    position: sticky; /* Keeps header fixed at the top when scrolling */
+    top: 0; /* Ensures it sticks to the very top */
+}
+
+.navbar {
+    backdrop-filter: blur(30px); /* Creates a blurred glass-like effect */
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37); /* Adds a soft shadow */
+    border: 2px solid rgba(255, 255, 255, 0.18); /* Semi-transparent border */
+}
+
+nav ul {
+    list-style-type: none; /* Removes default bullet points */
+    display: flex; /* Aligns list items horizontally */
+    gap: 15px; /* Spacing between nav items */
+    margin-inline: 23%; /* Centers the navigation bar */
+}
+
+nav ul a {
+    display: inline-block; /* Allows padding and hover effects */
+    text-decoration: none; /* Removes underline */
+    padding: 10px 15px; /* Adds padding for better click area */
+    color: rgb(252, 227, 227); /* Matches body text color */
+    border-radius: 5px; /* Rounds corners slightly */
+    transition: background-color 0.5s ease-in-out; /* Smooth transition for hover */
+}
+
+nav ul a:hover {
+    background-color: rgb(155, 0, 0); /* Darker red on hover */
+    color: black; /* Changes text color for contrast */
+}
+
+/* Front Page Settings */
+.frontpage {
+    font-size: 280%; /* Increases font size significantly */
+    text-align: center; /* Centers text */
+    margin: 20%; /* Adds spacing around content */
+}
+
+/* Synopsis Introduction Settings */
+.synopsis {
+    padding-top: 5%; /* Creates spacing above the section */
+    text-align: center; /* Centers text */
+    font-size: larger; /* Increases readability */
+}
+
+.p-style1 {
+    font-size: large; /* Larger text for readability */
+    line-height: 35px; /* Improves line spacing */
+    padding: 3%; /* Adds internal spacing */
+    border: 1px solid rgb(252, 227, 227); /* Light-colored border */
+    text-align: justify; /* Aligns text evenly on both sides */
+}
+
+/* Characters & Casts Settings */
+.characters {
+    padding-top: 8%; /* Adds spacing above section */
+    text-align: center; /* Centers text */
+    font-size: larger; /* Increases readability */
+}
+
+.container { /* For split-screen texts */
+    display: flex; /* Arranges children in a row */
+    justify-content: space-between; /* Spreads content apart */
+    align-items: center; /* Centers items vertically */
+    padding: 30px 20px; /* Adds spacing around content */
+    border: 1px solid rgb(252, 227, 227); /* Adds a thin border */
+    border-radius: 3px; /* Slightly rounds corners */
+}
+
+.left1 { /* Left-side part */
+    background-color: rgb(100, 0, 0); /* Dark red background */
+    color: rgb(252, 227, 227); /* Light text for contrast */
+    text-align: center; /* Centers text */
+    border-radius: 5px; /* Rounds corners slightly */
+}
+
+.right1 { /* Right-side part */
+    background-color: rgb(252, 227, 227); /* Light background */
+    color: rgb(100, 0, 0); /* Dark text for contrast */
+    text-align: center; /* Centers text */
+    border-radius: 5px; /* Rounds corners slightly */
+}
+
+ul li {
+    text-align: left; /* Aligns list items to the left */
+    padding: 5px; /* Adds spacing */
+}
+
+/* Hover Effects for Split Screen */
+.left1:hover, .right1:hover {
+    transform: scale(0.8); /* Shrinks the element on hover */
+}
+
+/* Key Information Settings */
+.keyinformation {
+    font-size: larger; /* Increases font size */
+    text-align: center; /* Centers text */
+    padding-top: 8%; /* Adds spacing above section */
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows boxes to wrap onto new lines */
+    justify-content: center; /* Centers flex items */
+    background-color: rgb(100, 0, 0); /* Dark background */
+    padding: 30px; /* Adds internal spacing */
+    gap: 20px; /* Spacing between boxes */
+}
+
+.flex-box {
+    flex: 1 1 calc(25% - 40px); /* Ensures equal distribution in a row */
+    min-height: 130px; /* Sets a minimum height */
+    border-radius: 10px; /* Rounds corners */
+    padding: 20px; /* Adds internal spacing */
+    background-color: rgb(100, 0, 0); /* Matches container background */
+    border: 2px solid black; /* Adds black border */
+    text-align: justify; /* Aligns text evenly */
+    display: flex;
+    flex-direction: column; /* Stacks content vertically */
+    justify-content: flex-start; /* Aligns content to the top */
+}
+
+.flex-box:hover {
+    background-color: rgb(252, 227, 227); /* Changes background on hover */
+    color: rgb(100, 0, 0); /* Changes text color on hover */
+}
+
+/* Reviews Section Settings */
+.reviews {
+    font-size: larger;
+    text-align: center;
+    padding-top: 8%;
+}
+
+ol {
+    padding: 0;
+    padding-bottom: 12px;
+    margin: 0;
+}
+  
+ol li {
+    list-style: none; /* Removes default numbering */
+    font-weight: bold;
+    font-size: large;
+}
+
+/* Ending Section Settings */
+.endingcontainer {
+    overflow: hidden; /* Prevents content overflow */
+    position: relative; /* Allows further positioning */
+    background-color: black; /* Dark background */
+    color: rgb(252, 227, 227); /* Light text for contrast */
+    text-align: center; /* Centers text */
+    font-size: 55px; /* Large font size */
+    padding: 95px; /* Adds spacing */
+}
+
+a {
+    color: rgb(252, 227, 227); /* Light text color */
+    text-decoration: underline; /* Underlines links */
+}
+  
+a:hover {
+    color: rgb(100, 0, 0); /* Changes link color on hover */
+}
