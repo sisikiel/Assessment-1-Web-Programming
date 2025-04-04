@@ -1,0 +1,319 @@
+/* Font Style*/
+.hina-mincho-regular {
+    font-family: "Hina Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Body Styles */
+body {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out elements */
+    background-color: #e9e7d9; /* Light background color */
+    color: #442727; /* Dark text color */
+}
+
+/* Header - Fixed at Top & Centered */
+header {
+    width: 100%; /* Full width */
+    text-align: center; /* Center text */
+    background-color: #442727; /* Dark background */
+    color: #e9e7d9; /* Light text color */
+    padding: 15px 0; /* Vertical padding */
+    position: fixed; /* Fixed position at the top */
+    top: 0; /* Positioned at the top */
+    left: 0; /* Full width */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+header h1 {
+    font-size: 24px; /* Larger font for main header */
+    margin: 5px 0; /* Vertical margin */
+}
+
+header h2 {
+    font-size: 18px; /* Smaller font for sub-header */
+    margin: 0; /* Remove margin */
+}
+
+/* Left Sidebar */
+.sidebar {
+    width: 60px; /* Narrow sidebar */
+    background-color: #442727; /* Dark background */
+    color: #e9e7d9; /* Light text color */
+    height: 50vh; /* Half the viewport height */
+    padding: 20px; /* Inner padding */
+    position: fixed; /* Fixed position */
+    top: 20%; /* Start at 20% from the top */
+    border-radius: 40px; /* Rounded corners */
+    justify-items: center; /* Center content */
+    align-content: center; /* Align items */
+}
+  
+.sidebar h2 {
+    margin-bottom: 30px; /* Space below the sidebar title */
+}
+  
+.sidebar a {
+    display: block; /* Block display for links */
+    color: #e9e7d9; /* Light text color */
+    text-decoration: none; /* No underlining */
+    padding: 10px 0; /* Vertical padding */
+}
+
+.sidebar a:hover {
+    background-color: #e9e7d9; /* Light background on hover */
+    color: #442727; /* Dark text on hover */
+    padding: 10px; /* Add padding */
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color ease-in-out 0.3s; /* Smooth transition */
+}
+
+
+/* Main Content Area */
+.main-content {
+    padding: 40px; /* Add padding */
+    flex: 1; /* Allow it to grow */
+    margin-top: 60px; /* Space for fixed header */
+    margin-left: 90px; /* Space for fixed sidebar */
+}
+
+/* TO-DO LIST Container */
+.to-do_list_container {
+    width: 950px; /* Set width */
+    height: auto; /* Auto height */
+    border: 1px solid #442727; /* Dark border */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px; /* Inner padding */
+    background: #e9e7d9; /* Light background */
+}
+
+/* Flex layout for TO-DO sections */
+.to-do_list {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space out items */
+    gap: 20px; /* Gap between items */
+    padding: 15px; /* Inner padding */
+}
+
+/* Left & Right Sections of TO-DO List */
+.to-do_list-left, .to-do_list-right {
+    flex: 1; /* Equal width */
+    padding: 10px; /* Inner padding */
+    border: 1px solid #442727; /* Dark border */
+    border-radius: 10px; /* Rounded corners */
+    background: #e9e7d9; /* Light background */
+}
+
+.to-do_list-left h3, .to-do_list-right h3 {
+    text-align: center; /* Center title */
+    margin-bottom: 10px; /* Space below title */
+}
+
+/* List Styling for TO-DO */
+.to-do_list-left ul, .to-do_list-right ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+}
+
+.to-do_list-left li, .to-do_list-right li {
+    display: flex; /* Flex layout for list items */
+    align-items: center; /* Align items vertically */
+    gap: 10px; /* Gap between items */
+    padding: 5px 0; /* Vertical padding */
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+    transform: scale(1.2); /* Scale up the checkbox */
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Right-side Fixed Container */
+.rightside-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+    gap: 20px; /* Gap between items */
+    position: fixed; /* Fixed on the right */
+    right: 10px; /* Distance from the right */
+    top: 20%; /* Start at 20% from the top */
+}
+
+/* Calendar Container */
+.calendar-container {
+    width: 320px; /* Set width */
+    background: #f8f9fa; /* Light background */
+    padding: 20px; /* Inner padding */
+    height: auto; /* Auto height */
+    border-left: 2px solid #ddd; /* Light left border */
+    border-radius: 30px; /* Rounded corners */
+    text-align: center; /* Center text */
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stack items */
+}
+
+/* Progress Container */
+.progress-container {
+    width: 320px; /* Set width */
+    text-align: center; /* Center text */
+}
+
+/* Progress Bar Styling */
+.progress-bar {
+    width: 100%; /* Full width */
+    background-color: #e0e0e0; /* Light background */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    height: 25px; /* Set height */
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2); /* Inner shadow */
+}
+
+/* Progress Bar (Filled) */
+.progress {
+    height: 100%; /* Full height */
+    width: 70%; /* Set progress (change value as needed) */
+    background: linear-gradient(to right, #442727, #343333); /* Gradient background */
+    text-align: center; /* Center text */
+    line-height: 25px; /* Vertically center text */
+    color: white; /* White text */
+    font-weight: bold; /* Bold text */
+}
+
+/* Calendar Header (Month & Year) */
+.calendar-header {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Center vertically */
+    margin-bottom: 10px; /* Bottom margin */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Bold text */
+}
+
+/* Button Styling (Calendar Navigation) */
+.calendar-header button {
+    background: #442727; /* Dark background */
+    color: #e9e7d9; /* Light text */
+    border: none; /* Remove border */
+    padding: 5px 10px; /* Padding */
+    cursor: pointer; /* Pointer cursor */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.calendar-header button:hover {
+    background: #e9e7d9; /* Light background on hover */
+    color: #442727; /* Dark text on hover */
+}
+
+/* Calendar Grid */
+#calendar {
+    display: grid; /* Grid layout */
+    grid-template-columns: repeat(7, 1fr); /* 7 columns for the days of the week */
+    gap: 10px; /* Gap between cells */
+    text-align: center; /* Center text */
+}
+
+/* Day Cell in Calendar */
+.day {
+    padding: 10px; /* Padding */
+    background: white; /* White background */
+    border: 1px solid #ccc; /* Light border */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.day:hover {
+    background: #442727; /* Dark background on hover */
+    color: #e9e7d9; /* Light text on hover */
+}
+
+/* Module & Notebooks Section Styling */
+.module-chapters, .notebooks {
+    max-width: 930px; /* Set max width */
+    margin-top: 5%; /* Space from top */
+    padding: 20px; /* Inner padding */
+    background: white; /* White background */
+    color: #442727; /* Dark text */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+/* Header for Modules & Notebooks */
+.header-module, .header-notebooks {
+    display: flex; /* Flex layout */
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Align vertically */
+    padding-bottom: 10px; /* Bottom padding */
+    border-bottom: 2px solid #ddd; /* Bottom border */
+    color: #442727; /* Dark text */
+}
+
+.header-module, .header-notebooks h2 {
+    margin: 0; /* Remove margin */
+    font-size: 24px; /* Font size */
+}
+
+/* Button Styling */
+button {
+    background: #442727; /* Dark background */
+    color: #e9e7d9; /* Light text */
+    border: none; /* No border */
+    padding: 8px 15px; /* Padding */
+    cursor: pointer; /* Pointer cursor */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    font-family: "Hina Mincho", serif; /* Font */
+}
+
+button:hover {
+    background: #e9e7d9; /* Light background on hover */
+    color: #442727; /* Dark text on hover */
+}
+
+/* Lists for Modules & Notebooks */
+.module-list, .notebook-list {
+    display: flex; /* Flex layout */
+    justify-content: space-around; /* Space between items */
+    margin-top: 20px; /* Space from top */
+}
+
+/* Article Box for Modules & Notebooks */
+.module-articles, .notebook-articles {
+    background: #f4f4f4; /* Light background */
+    padding: 20px; /* Padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+    width: 30%; /* Set width */
+    font-weight: bold; /* Bold text */
+}
+
+/* Footer - Marquee */
+.marquee {
+    width: 100%; /* Full width */
+    overflow: hidden; /* Hide overflow */
+    white-space: nowrap; /* Prevent wrapping */
+    background-color: #FAEBD7; /* Light background */
+    position: fixed; /* Fixed at the bottom */
+    bottom: 0; /* At the bottom */
+    left: 0; /* Full width */
+    text-align: center; /* Center text */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Animated Text for Marquee */
+.marquee p {
+    display: inline-block; /* Inline display */
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Bold text */
+    color: #1E1E1E; /* Dark text */
+    animation: scrollText 10s linear infinite; /* Animation */
+}
+
+/* Keyframes for Marquee Animation */
+@keyframes scrollText {
+    from {
+        transform: translateX(100%); /* Start offscreen on the right */
+    }
+    to {
+        transform: translateX(-100%); /* End offscreen on the left */
+    }
+}
