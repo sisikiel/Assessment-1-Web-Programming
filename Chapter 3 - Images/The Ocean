@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Images</title> <!--web page title-->
+        <link rel="stylesheet" type="text/css" href="chapter3.css"> <!--external stylesheet-->
+    </head>
+
+<body>
+    <h1>The Ocean</h1>
+
+    <hr> <!--visible line-->
+    <div class="introduction"> <!--container for the introduction-->
+        <p>Three images that has one theme: The Beauty of the Ocean.</p>
+        <p>The following pictures contains the following filters:</p>
+        <ol> <!--lists of filter used-->
+            <li>&#9830; Brightness (1.1)</li>
+            <li>&#9830; Contrast (2)</li>
+            <li>&#9830; Saturate (3)</li>
+        </ol>
+    </div>
+
+    <div class="container"> <!--container for images-->
+        <section class="image-section"> <!--section for images-->
+            <img src="fish_image.jpg" alt="Picture of Fishes"> <!--alt is the alternative text when the picture doesn't load right-->
+            <p>	&#169; Image by <a href="https://pixabay.com/users/joakant-313743/" target="_blank">joakant</a> from <a href="https://pixabay.com/photos/fish-underwater-corals-sea-ocean-378286/" target="_blank">Pixabay</a></p>
+            <!--target= "_blank" allows the user to have another tab when they click the link-->
+        </section>
+
+        <section class="image-section">
+            <img src="waves_image.jpg" alt="Picture of Waves">
+            <p>	&#169; Image by <a href="https://pixabay.com/users/pixifant-2995268/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1555170" target="_blank">M</a> from <a href="https://pixabay.com/photos/water-sea-waves-ocean-horizon-1555170/" target="_blank">Pixabay</a></p>
+        </section>
+
+        <section class="image-section">
+            <img src="seal_image.jpg" alt="Picture of a Seal in the Shore.">
+            <p>	&#169; Image by <a href="https://pixabay.com/users/pamfitzgeraldbya-4374248/" target="_blank">pamfitzgeraldbya</a> from <a href="https://pixabay.com/photos/beach-seal-marine-wildlife-sea-7730209/" target="_blank">Pixabay</a></p>
+        </section>
+    </div>
+</body>
+</html>
