@@ -1,0 +1,65 @@
+/* Enables smooth scrolling*/
+html {
+    scroll-behavior: smooth; /* Allows smooth scrolling effect */
+}
+
+/* Webpage main body design */
+body {
+    background-color: white; /* Sets background color to white */
+    font-family: 'Times New Roman', Times, serif; /* Defines font style */
+}
+
+/* Container for split-screen text layout */
+.container {
+    display: flex; /* Uses flexbox to align items in a row */
+    justify-content: space-between; /* Spaces elements evenly */
+    padding-right: 3%; /* Adds right padding */
+}
+
+/* Styling for the first text block */
+.text1 {
+    flex: 1; /* Allows flexible width */
+    margin-left: 10%; /* Left margin for positioning */
+    margin-top: 16%; /* Moves text down */
+    font-size: 180%; /* Increases font size */
+}
+
+/* Styling for the second text block */
+.text2 {
+    flex: 1; /* Allows flexible width */
+    text-align: left; /* Aligns text to the left */
+    margin-right: 5%; /* Right margin for spacing */
+    margin-top: 18%; /* Moves text slightly lower */
+    background-color: white; /* Sets background color */
+}
+
+/* Navigation menu styles */
+nav ul {
+    margin-left: 2%; /* Adds left margin */
+    list-style-type: none; /* Removes default bullet points */
+    font-size: medium; /* Sets font size */
+    padding-bottom: 40%; /* Adds bottom padding */
+    font-weight: bold; /* Makes text bold */
+    font-size: 20px; /* Sets font size */
+}
+
+/* Styles for navigation links */
+nav ul li a {
+    text-decoration: none; /* Removes underlines from links */
+    margin: 10px; /* Adds spacing around links */
+    color: black; /* Sets text color */
+}
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+    color: darkgrey; /* Changes text color when hovered */
+}
+
+/* Vertical line separator styling */
+.vertical-hr {
+    border: 0; /* Removes default border */
+    margin: 0; /* Removes default margin */
+    border-left: 5px solid black; /* Creates a thick vertical line */
+    height: 230px; /* Sets height of the line */
+    float: left; /* Aligns the line to the left */
+}
