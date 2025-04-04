@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Embedded Video</title> <!--web page title-->
+        <link rel="stylesheet" type="text/css" href="chapter5.css"> <!--external css stylesheet-->
+    </head>
+
+<body>
+    <video controls loop poster="harp-seal.jpg"> 
+        <!--video controls (pause, sound, full-screen, & video menu buttons)-->
+        <!--loop allows the video to loop once it is played-->
+        <!--select poster image-->
+        
+        <source src="Adorable Baby Seal Come Towards Camera and Tries to Talk Making Irresistibly Cute Noises!.mp4"> <!--import the video-->
+    </video>
+</body>
+</html>
