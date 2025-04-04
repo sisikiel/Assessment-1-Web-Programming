@@ -1,0 +1,136 @@
+/* Google font style */
+.cherry-bomb-one-regular {
+    font-family: "Cherry Bomb One", system-ui; /* Applies the 'Cherry Bomb One' font to the text */
+    font-weight: 400; /* Normal font weight */
+    font-style: normal; /* Normal font style */
+}
+
+/* Main settings */
+body {
+    text-align: center; /* Centers all text horizontally */
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb); /* Gradient background with soft pink colors */
+    color: #333; /* Dark text color for better readability */
+
+    display: flex; /* Uses flexbox for layout */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    height: 100vh; /* Full viewport height */
+
+    flex-direction: column; /* Stacks content in a column */
+    overflow: hidden; /* Prevents scrolling and keeps content centered */
+}
+
+/* Game container */
+.game-wrapper { 
+    display: flex; /* Uses flexbox for layout */
+    flex-direction: row; /* Aligns the game elements in rows */
+    align-items: center; /* Centers items vertically in the row */
+    justify-content: center; /* Centers items horizontally in the row */
+    height: 100vh; /* Full viewport height */
+    gap: 20px; /* Adds space between the game elements */
+}
+
+/* Container for scores and lives (left side) */
+.score-container {
+    background: rgb(255, 255, 255); /* White background */
+    padding: 20px 40px; /* Padding inside the score container */
+    border-radius: 50px; /* Rounded corners for the score container */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+    font-size: 18px; /* Font size for the score text */
+
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stacks elements vertically */
+    align-items: center; /* Centers items horizontally */
+
+    animation: bounceIn 1s ease-in-out; /* Animation when opening the game */
+    transition: transform 0.3s; /* Smooth transformation when hovering */
+}
+
+/* Hover effect for the score container */
+.score-container:hover{
+    transform: scale(1.02); /* Slightly enlarges the container */
+    background-color: #ff4757; /* Changes the background to a red shade */
+    color: #fad0c4; /* Changes text color to a light pink */
+}
+
+/* Container for the main game (right side) */
+.container {
+    width: 60%; /* Sets the width of the game container */
+    padding: 30px; /* Padding inside the container */
+    background: white; /* White background for the game area */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+    animation: bounceIn 1s ease-in-out; /* Animation when opening the game */
+    transition: transform 0.3s; /* Smooth transformation when hovering */
+}
+
+/* Hover effect for the game container */
+.container:hover {
+    transform: scale(1.02); /* Slightly enlarges the container */
+}
+
+/* Game over box */
+.game-over {
+    display: none; /* Initially hidden until the game is over */
+    width: 50%; /* Sets the width of the game over box */
+    padding: 30px; /* Padding inside the box */
+    background: white; /* White background */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4); /* Shadow effect */
+    text-align: center; /* Centers the text inside the box */
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation when the game ends */
+}
+
+/* Keyframe animation for fade-in effect */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); } /* Starts with opacity 0 and moves up */
+    to { opacity: 1; transform: translateY(0); } /* Ends with full opacity and no movement */
+}
+
+/* Keyframe animation for bounce-in effect */
+@keyframes bounceIn {
+    0% { transform: scale(0.8); opacity: 0; } /* Starts small and invisible */
+    100% { transform: scale(1); opacity: 1; } /* Ends at normal size and visible */
+}
+
+/* Color options container */
+.options {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Centers the options horizontally */
+    gap: 20px; /* Adds space between the options */
+    margin: 20px 0; /* Adds margin above and below the container */
+}
+
+/* Option boxes (the three boxes for options) */
+.option {
+    width: 120px; /* Sets the width of each option box */
+    height: 120px; /* Sets the height of each option box */
+    border-radius: 15px; /* Rounded corners for the option boxes */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for scaling and shadow */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Adds shadow around the option boxes */
+}
+
+/* Hover effect for each option box */
+.option:hover {
+    transform: scale(1.1); /* Slightly enlarges the box on hover */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4); /* Increases the shadow effect */
+}
+
+/* Play again button after losing lives */
+button {
+    padding: 15px 30px; /* Adds padding inside the button */
+    font-size: 20px; /* Sets the font size for the button text */
+    border: none; /* Removes the default border */
+    background: #ff6b81; /* Sets a pink background */
+    color: white; /* White text color */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    border-radius: 10px; /* Rounded corners for the button */
+    transition: background 0.3s, transform 0.2s; /* Smooth transition for background and scaling */
+}
+
+/* Hover effect for the play again button */
+button:hover {
+    background: #ff4757; /* Changes background color on hover */
+    transform: scale(1.1); /* Slightly enlarges the button on hover */
+}
