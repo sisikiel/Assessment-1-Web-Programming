@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Petrol Calculator</title>
+    <!-- Linking to an external CSS file for styling -->
+    <link rel="stylesheet" type="text/css" href="chapter6.css">
+    <!-- Linking to Google Material Icons for use in the title -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Title of the Calculator with an icon -->
+        <h2 class="title">
+            <i class="material-icons">local_gas_station</i> Petrol Cost Calculator
+        </h2>
+
+        <!-- Input Section: Contains fields for user input -->
+        <div class="input-container">
+            <!-- Input for Cost per Liter -->
+            <div class="input-box">
+                <label for="costPerLiter">Cost per Liter (AED):</label>
+                <!-- Default value is 1.72, user can increase/decrease with step of 0.01 -->
+                <input type="number" id="costPerLiter" value="1.72" step="0.01">
+            </div>
+
+            <!-- Input for Liters Purchased -->
+            <div class="input-box">
+                <label for="liters">Liters Purchased:</label>
+                <!-- Default value is 0, user can increase/decrease with step of 0.1 -->
+                <input type="number" id="liters" value="0" step="0.1">
+            </div>
+
+            <!-- Section to display the Total Cost -->
+            <div class="input-box">
+                <label>Total Cost:</label>
+                <!-- Default text content will show AED 0.00 until calculation -->
+                <p id="totalCost">AED 0.00</p>
+            </div>
+        </div>
+
+        <!-- Button Box: Contains the Calculate button -->
+        <div class="button-box">
+            <!-- When clicked, it triggers the 'calculateTotal' function -->
+            <button onclick="calculateTotal()">Calculate</button>
+        </div>
+    </div>
+
+    <!-- JavaScript for calculation -->
+    <script>
+        // Function to calculate the total petrol cost
+        function calculateTotal() {
+            // Get the input values for cost per liter and liters purchased
+            let costPerLiter = parseFloat(document.getElementById('costPerLiter').value);
+            let liters = parseFloat(document.getElementById('liters').value);
+
+            // Calculate the total cost by multiplying cost per liter by liters purchased
+            let totalCost = costPerLiter * liters;
+
+            // Update the total cost on the webpage, formatting it to 2 decimal places
+            document.getElementById('totalCost').textContent = `AED ${totalCost.toFixed(2)}`;
+        }
+    </script>
+</body>
+</html>
