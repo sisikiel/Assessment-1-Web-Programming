@@ -1,0 +1,187 @@
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Sets the font style */
+    background-color: rgb(100, 0, 0); /* Dark red background */
+    color: rgb(252, 227, 227); /* Light text for readability */
+    overflow: visible; /* Ensures content can expand if needed */
+}
+
+/* Navigation Button Settings */
+header {
+    position: sticky; /* Keeps the header at the top when scrolling */
+    top: 0; /* Ensures it sticks to the top */
+}
+
+/* Front Page Settings */
+.frontpage {
+    font-size: 280%; /* Increases font size for emphasis */
+    text-align: center; /* Centers text */
+    margin: 15%; /* Adds spacing around content */
+}
+
+.a-style1 {
+    color: rgb(252, 227, 227); /* Sets link color */
+}
+
+.a-style1:hover {
+    color: black; /* Changes color on hover */
+}
+
+/* Navigation Settings */
+.navbar {
+    backdrop-filter: blur(30px); /* Adds a blurred effect to the navbar */
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37); /* Soft shadow effect */
+    border: 2px solid rgba(255, 255, 255, 0.18); /* Semi-transparent border */
+}
+
+nav ul {
+    list-style-type: none; /* Removes default list styling */
+    display: flex; /* Aligns items horizontally */
+    gap: 15px; /* Spacing between navigation items */
+    margin-inline: 20%; /* Centers the navigation menu */
+}
+
+nav ul a {
+    display: inline-block; /* Allows padding and margin adjustments */
+    text-decoration: none; /* Removes underline from links */
+    padding: 10px 15px; /* Adds padding for better usability */
+    color: rgb(252, 227, 227); /* Light text color */
+    border-radius: 5px; /* Slightly rounds corners */
+    transition: background-color 0.5s ease-in-out; /* Smooth transition on hover */
+}
+
+nav ul a:hover {
+    background-color: rgb(155, 0, 0); /* Darker red on hover */
+    color: black; /* Changes text color for contrast */
+}
+
+/* Synopsis Introduction Settings */
+.synopsis {
+    padding-top: 1%; /* Adds spacing above the section */
+    text-align: center; /* Centers text */
+    font-size: larger; /* Increases readability */
+}
+
+.p-style1 {
+    font-size: large; /* Large text for readability */
+    line-height: 35px; /* Improves line spacing */
+    padding: 3%; /* Adds spacing around content */
+    border: 1px solid rgb(252, 227, 227); /* Light border for separation */
+    text-align: justify; /* Aligns text evenly on both sides */
+}
+
+/* Characters & Casts Settings */
+.characters {
+    padding-top: 2%; /* Adds spacing above the section */
+    text-align: center; /* Centers text */
+    font-size: larger; /* Enhances readability */
+}
+
+.container { /* For split-screen texts */
+    display: flex; /* Aligns content in a row */
+    justify-content: space-between; /* Spreads elements apart */
+    align-items: center; /* Centers items vertically */
+    padding: 30px 20px; /* Adds internal spacing */
+    border: 1px solid rgb(252, 227, 227); /* Adds a light border */
+    border-radius: 3px; /* Slightly rounds corners */
+}
+
+.left1 { /* Left section */
+    background-color: rgb(100, 0, 0); /* Dark red background */
+    color: rgb(252, 227, 227); /* Light text for contrast */
+    text-align: center; /* Centers text */
+    border-radius: 5px; /* Slightly rounds corners */
+}
+
+.right1 { /* Right section */
+    background-color: rgb(252, 227, 227); /* Light background */
+    color: rgb(100, 0, 0); /* Dark text for contrast */
+    text-align: center; /* Centers text */
+    border-radius: 5px; /* Slightly rounds corners */
+}
+
+ul li {
+    text-align: left; /* Aligns list items to the left */
+    padding: 5px; /* Adds spacing between list items */
+}
+
+/* Hover Effects for Split Screen */
+.left1:hover, .right1:hover {
+    transform: scale(0.8); /* Shrinks the element on hover */
+}
+
+/* Key Information Section */
+.keyinformation {
+    font-size: larger; /* Increases font size */
+    text-align: center; /* Centers text */
+    padding-top: 2%; /* Adds spacing above the section */
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows elements to wrap on smaller screens */
+    justify-content: center; /* Centers elements */
+    background-color: rgb(100, 0, 0); /* Dark red background */
+    padding: 30px; /* Adds internal spacing */
+    gap: 20px; /* Controls spacing between elements */
+}
+
+.flex-box {
+    flex: 1 1 calc(25% - 40px); /* Distributes boxes evenly across four columns */
+    min-height: 130px; /* Sets a minimum height */
+    border-radius: 10px; /* Rounds corners */
+    padding: 20px; /* Adds internal spacing */
+    background-color: rgb(100, 0, 0); /* Matches container background */
+    border: 2px solid black; /* Adds a border */
+    text-align: justify; /* Aligns text evenly */
+    display: flex;
+    flex-direction: column; /* Arranges content vertically */
+    justify-content: flex-start; /* Aligns content to the top */
+}
+
+.flex-box:hover {
+    background-color: rgb(252, 227, 227); /* Changes background on hover */
+    color: rgb(100, 0, 0); /* Changes text color on hover */
+}
+
+/* Reviews Section */
+.reviews {
+    font-size: larger;
+    text-align: center;
+    padding-top: 2%;
+}
+
+ol {
+    padding: 0;
+    padding-bottom: 12px;
+    margin: 0;
+}
+  
+ol li {
+    list-style: none; /* Removes default numbering */
+    font-weight: bold;
+    font-size: large;
+}
+
+/* Ending Section */
+.endingcontainer {
+    overflow: hidden; /* Prevents content overflow */
+    position: relative; /* Allows further positioning */
+    background-color: black; /* Dark background */
+    color: rgb(252, 227, 227); /* Light text for contrast */
+    text-align: center; /* Centers text */
+    font-size: 55px; /* Large font size */
+    padding: 95px; /* Adds spacing */
+}
+
+a {
+    color: rgb(252, 227, 227); /* Light text color */
+    text-decoration: underline; /* Underlines links */
+}
+
+a:hover {
+    color: rgb(100, 0, 0); /* Changes link color on hover */
+}
