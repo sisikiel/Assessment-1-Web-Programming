@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PLOT</title> <!--web page title-->
+        <link rel="stylesheet" type="text/css" href="chapter2bonus.css"> <!--same external stylesheet as the previous one-->
+    </head>
+
+<body>
+    <!--HEADING SECTION (NAV BUTTONS)-->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="Chapter 2 Bonus.html">&#9762; HOME</a></li>
+                <li><a href="PLOT.html">&#9762; SYNOPSIS</a></li>
+                <li><a href="CHARACTERS.html">&#9762; CHARACTERS & CASTS</a></li>
+                <li><a href="KEY.html">&#9762;  KEY INFORMATION</a></li>
+                <li><a href="REVIEWS.html">&#9733; REVIEWS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--PLOT INTRODUCTION PART-->
+    <div class="synopsis">
+        <h2>What twisted fate awaits those who seek <i>The Substance?</i> Read the Synopsis to this mystery:</h2>
+        <p class="p-style1">
+            <b>Elisabeth Sparkle</b>, a former television star, finds herself discarded by the entertainment industry on her 50th birthday, 
+            deemed too old for the spotlight. Desperate to reclaim her youth, beauty, and relevance, she turns to an experimental 
+            serum known as "The Substance." This mysterious formula allows her to create a younger, more vibrant version of herself 
+            named <b>Sue</b>. However, the process comes with strict rules—Elisabeth and Sue must share one body, alternating consciousness 
+            every seven days. <br>
+
+            <br>At first, Elisabeth enjoys the benefits of her youthful alter ego, as Sue quickly rises to stardom, captivating audiences 
+            and industry elites. However, as Sue thrives, Elisabeth begins to deteriorate, aging at an accelerated rate each time she 
+            reclaims control of their shared body. Over time, resentment festers between them, as Sue becomes increasingly independent, 
+            reckless, and unwilling to relinquish her time in the spotlight. <br>
+            
+            <br>Desperate to maintain her newfound fame, Sue starts abusing The Substance, taking extra doses to extend her time in control. 
+            This dangerous overuse throws the delicate balance into chaos, causing Elisabeth’s body to decay unnaturally. As her 
+            desperation reaches its peak, Sue takes an extreme risk—an overdose of the serum in a final bid to permanently erase Elisabeth. 
+            Instead, the overdose triggers a horrifying consequence: the two identities merge into a grotesque, monstrous fusion of youth 
+            and decay, an abomination known as "Monstro Elisasue." <br>
+            
+            <br>The transformation reaches its climax during a highly publicized live television event, where the horrific fusion is revealed 
+            in front of an unsuspecting audience. In a nightmarish spectacle, the grotesque, deformed entity rampages on stage, exposing 
+            the brutal consequences of society’s obsession with youth and perfection. The moment serves as a macabre satire of the 
+            entertainment industry, exposing the extreme lengths individuals are willing to go to in pursuit of beauty and relevance.
+        </p>
+    </div>
+</body>
+</html>
