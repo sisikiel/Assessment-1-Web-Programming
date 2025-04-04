@@ -1,0 +1,50 @@
+div {
+    display: inline-block; /* Allows divs to be displayed inline while maintaining block properties */
+
+    font-family: sans-serif; /* Sets the font style */
+    font-size: 20px; /* Text size */
+
+    margin: 25px; /* Spacing around each div */
+    border: 4px solid black; /* Default border style */
+    line-height: 100px; /* Adjusts vertical alignment of text */
+    text-align: center; /* Centers text inside the div */
+    width: 200px; /* Fixed width */
+    height: 200px; /* Fixed height */
+}
+
+/* Styles for divA: Custom border color and box shadow */
+.divA {
+    border-color: blueviolet; /* Changes border color to blueviolet */
+    box-shadow: 8px 8px 10px red; /* Adds a red shadow to the box */
+}
+
+/* Styles for divB: Different border color and inset box shadow */
+.divB {
+    border-color: rgb(51, 248, 51); /* Green border */
+    box-shadow: inset 8px 8px 10px black; /* Inset shadow makes it appear inside the div */
+}
+
+/* Styles for divC: Relative positioning, rounded corners, and multiple box shadows */
+.divC {
+    position: relative; /* Allows further positioning adjustments if needed */
+    border-radius: 15px; /* Rounds the corners */
+    border: 4px solid salmon; /* Main border color */
+
+    /* Multiple layered box shadows with different colors */
+    box-shadow: 
+    0 0 0 10px blue,
+    0 0 0 20px red, 
+    0 0 0 30px green;
+}
+
+/* Styles for divD: Red border and text shadow */
+.divD {
+    border-color: rgb(191, 0, 0); /* Dark red border */
+    text-shadow: 5px 5px 1px; /* Missing color value for text shadow */
+}
+
+/* Styles for body: Centers content horizontally */
+body {
+    margin: 100px auto; /* Adds top and bottom margin, centers horizontally */
+    width: max-content; /* Ensures body width only fits its content */
+}
