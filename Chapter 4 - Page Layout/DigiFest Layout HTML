@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DIGI FEST 2022</title> <!-- Sets the title of the webpage -->
+        <link rel="stylesheet" type="text/css" href="chapter4.css"> <!-- Links external CSS file -->
+    </head>
+
+<body>
+    <!-- Website Header -->
+    <header>
+        <h1>DIGI FEST 2022</h1> <!-- Main heading of the webpage -->
+        <nav class="nav"> <!-- Navigation bar -->
+            <ul>
+                <li>Home</li> <!-- Navigation menu items -->
+                <li>About</li>
+                <li>What's On</li>
+                <li>Contact</li>
+                <li>Tickets</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="contents">
+        <main class="main"> <!-- Main section of the webpage -->
+            <h1>Welcome</h1> <!-- Welcome heading -->
+            <p>Digi Fest is a celebration of digital and technology in the city of Cardiff. 
+                This year, we are celebrating ‘collaboration’, so come and find out about the 
+                latest collaborations that are happening in this historic and innovative city. 
+                They promise an educational and inspirational packed programme for all.</p>
+
+            <article class="article"> <!-- Article section containing an image -->
+                <img src="article image.png"> <!-- Image related to the article -->
+            </article>
+        </main>
+    
+        <!-- Sidebar Section -->
+        <aside class="aside"> 
+            <h1>Line Up</h1> <!-- Lineup heading -->
+            <p>- Introduction to HTML and CSS</p>
+            <p>- Links and Images</p>
+            <p>- Page Layout </p>
+
+            <section class="section"> <!-- Section containing images -->
+                <img src="section image 1.png"> <!-- First image in the section -->
+                <img src="section image 2.png"> <!-- Second image in the section -->
+            </section>
+        </aside>
+    </div>
+    
+    <!-- Footer Section -->
+    <div class="contents2">
+        <footer class="footercontainer"> <!-- Footer container -->
+            <p>&#169; 2022 DigiFest Ltd.</p> <!-- Copyright information -->
+        </footer>
+    </div>
+
+</body>
+</html>
