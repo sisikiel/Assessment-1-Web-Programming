@@ -1,0 +1,107 @@
+/*main body settings*/
+body{
+    background-color:#17072b; /*for background color*/
+}
+
+/*Header settings*/
+header{
+    font-family: tahoma, sanserif; /*font for the header*/
+    text-align: center;  /*aligns the texts to the middle*/
+    background-color:#17072b;   /*background color of the header*/
+    color: #FFFFFF;   /*text color of the header*/
+    font-size: larger;  /*font size of the texts*/
+}
+
+/*Heading 1 Settings*/
+h1{
+    font-family: Tahoma, sans-serif;
+    text-decoration: underline; /*underlines the text*/
+    font-size: 210%;    /*changes the font size*/
+}
+
+/*Navigation buttons settings (in header)*/
+nav ul{
+    list-style-type: none;  /*removes the dots in ul*/
+    color: #FFFFFF;    /*text color*/
+
+    display: flex;  /*sets navigation in one row*/
+    gap: 30px;  /*gaps in between each text*/
+    justify-content: center;    
+    font-size: larger;
+    padding-bottom: 10px;   
+}
+
+/*main contents*/
+
+.contents{  /*container where the <main> and <aside> will be stored*/
+    display: flex;  /*splits the screen*/
+    background-color: #FFFFFF; /*white background*/
+}
+
+main{       /* <main> settings*/
+    font-family: Arial, sans-serif;    /*change the font*/
+    flex: 1;        /*lets the contents take half side of the screen*/
+    padding: 1.5%;
+    width: 50%; /*space that the <main> takes within the .contents*/
+}
+
+.main p{ /* for paragraph size within the <main>*/
+    font-size: large;
+}
+
+.article img{   /*image under the <main> */
+    width: 100%;
+    height: auto;
+    padding-bottom: 4%;
+}
+
+/*aside contents (the half side of <main>*/
+aside{
+    font-family: Arial, sans-serif;  
+    background-color: #172d67;  /*change background color*/
+    color: #FFFFFF;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    padding: 1%;
+    padding-left: 3%;
+    width: 30%; /*takes 30% of the split screen*/
+
+}
+
+.aside p{ /*changing the paragraph size*/
+    font-size: larger;
+}
+
+/*section settings for the two images under the <aside> content*/
+.section{
+    display: flex;  /*splits it into two containers*/
+    gap: 10px;  /*gap between the images*/
+}
+
+.section img{   /*settings for the images*/
+    width: 45%;     /*size*/
+    height: auto;
+    padding-top: 15%;
+    padding-bottom: 5% ;
+}
+
+/*footer containers*/
+.contents2{
+    display: flex;  
+    flex-direction: column; /* Stack content and footer vertically */
+}
+.footercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8c15e9;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer{ /*footer settings*/
+    font-family: tahoma,sans-serif; /*change font*/
+    background-color:#8c15e9;   /*background color*/
+    text-align: center; 
+    color: #FFFFFF;
+}
