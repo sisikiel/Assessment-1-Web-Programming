@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Study Planner</title> <!-- Sets the title of the webpage -->
+        <link rel="stylesheet" type="text/css" href="chapter4bonus.css"> <!-- Links external CSS file -->
+
+        <!-- Google Font Linking -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
+
+        <!-- Icon Link for Material Icons -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+
+<body class="hina-mincho-regular">
+    <!-- Website Header -->
+    <header>
+        <h1>Creative Computing</h1>
+        <h2>Level 4 | Evening Class</h2>
+    </header>
+    
+    <!-- Sidebar Navigation with icons -->
+    <aside class="sidebar">
+        <a href="#dashboard"><i class="material-icons">business_center</i></a> <!-- Dashboard Icon -->
+        <a href="#calendar"><i class="material-icons">event</i></a> <!-- Calendar Icon -->
+        <a href="#chapters"><i class="material-icons">collections_bookmark</i></a> <!-- Chapters Icon -->
+        <a href="#notes"><i class="material-icons">note</i></a> <!-- Notes Icon -->
+        <a href="#settings"><i class="material-icons">settings</i></a> <!-- Settings Icon -->
+    </aside>
+    
+    <!-- Main Content Section -->
+    <main class="main-content">
+        <h1>Web Programming Study Planner</h1>
+
+        <!-- To-Do List Section -->
+        <section class="to-do_list_container">
+            <h2>TO-DO LIST</h2>
+            <div class="to-do_list">
+                
+                <!-- Left Section: Assessment 1 Tasks -->
+                <section class="to-do_list-left">
+                    <h3>Assessment 1</h3>
+                    <ul>
+                        <li><input type="checkbox"> Complete Chapter 1 Coding</li>
+                        <li><input type="checkbox"> Complete Chapter 2 Coding</li>
+                        <li><input type="checkbox"> Complete Chapter 3 Coding</li>
+                        <li><input type="checkbox"> Complete Chapter 4 Coding</li>
+                        <li><input type="checkbox"> Complete Chapter 5 Coding</li>
+                        <li><input type="checkbox"> Complete Chapter 6 Coding</li>
+                    </ul>
+                </section>
+        
+                <!-- Right Section: Assessment 2 Tasks -->
+                <section class="to-do_list-right">
+                    <h3>Assessment 2</h3>
+                    <ul>
+                        <li><input type="checkbox"> Complete Chapter 1 Coding</li>
+                        <li><input type="checkbox"> Complete Chapter 2 Coding</li>
+                        <li><input type="checkbox"> Complete Chapter 3 Coding</li>
+                        <li><input type="checkbox"> Complete Chapter 4 Coding</li>
+                        <li><input type="checkbox"> Complete Chapter 5 Coding</li>
+                        <li><input type="checkbox"> Complete Chapter 6 Coding</li>
+                    </ul>
+                </section>  
+            </div>
+        </section>
+
+        <!-- Module Chapters Section -->
+        <section class="module-chapters">
+            <div class="header-module">
+                <h2 class="header-module">Chapter Modules</h2>
+                <button>View More</button>
+            </div>
+    
+            <div class="module-list">
+                <article class="module-articles">Chapter 1: Basic HTML Tags</article>
+                <article class="module-articles">Chapter 2: CSS Basic Formatting</article>
+                <article class="module-articles">Chapter 3: CSS Layout</article>
+            </div>
+        </section>
+
+        <!-- Notebooks Section -->
+        <section class="notebooks" style="margin-bottom: 5%;">
+            <div class="header-notebooks">
+                <h2 class="header-notebooks">Your Notebooks</h2>
+                <button>View All Notebooks</button>
+            </div>
+
+            <div class="notebook-list">
+                <article class="notebook-articles">Lesson 1 Notes</article>
+                <article class="notebook-articles">Lesson 2 Notes</article>
+                <article class="notebook-articles">Lesson 3 Notes</article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Right Sidebar Section -->
+    <aside class="rightside-container">
+        <!-- Calendar Section for scheduling study tasks -->
+        <aside class="calendar-container">
+            <h2>Calendar</h2>
+            <div class="calendar-header">
+                <button id="prevMonth">&lt;</button> <!-- Previous Month Button -->
+                <span id="monthYear"></span> <!-- Current Month and Year Display -->
+                <button id="nextMonth">&gt;</button> <!-- Next Month Button -->
+            </div>
+            <div id="calendar"></div>
+        </aside>
+        
+        <!-- Progress Bar Section showing module completion percentage -->
+        <div class="progress-container">
+            <h2>School Module Progress (2024-25)</h2>
+            <div class="progress-bar">
+                <div class="progress">70%</div> <!-- Progress Bar at 70% Completion -->
+            </div>
+        </div>
+
+        <!-- Footer Section with Motivational Quote -->
+        <footer class="marquee">
+            <p>"Strive not to be a success, but rather to be of value." - Albert Einstein</p>
+        </footer>
+    </aside>
+
+    <!-- JavaScript File Link for Interactive Features -->
+    <script src="chapter4bonus.js"></script> 
+</body>
+</html>
