@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KEY INFORMATION</title> <!--web page title-->
+        <link rel="stylesheet" type="text/css" href="chapter2bonus.css"> <!--same external stylesheet-->
+    </head>
+
+<body>
+        <!--HEADING SECTION (NAV BUTTONS)-->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="Chapter 2 Bonus.html">&#9762; HOME</a></li>
+                <li><a href="PLOT.html">&#9762; SYNOPSIS</a></li>
+                <li><a href="CHARACTERS.html">&#9762; CHARACTERS & CASTS</a></li>
+                <li><a href="KEY.html">&#9762;  KEY INFORMATION</a></li>
+                <li><a href="REVIEWS.html">&#9733; REVIEWS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="keyinformation">
+        <h2 id="KEY">What are some basic infos you have to know about this movie?</h2>
+
+        <div class="flex-container"> <!--main box container-->
+            <div class="flex-box"> <!--small boxes within the main box-->
+                <b>Director & Writer</b> <br>The Substance is directed by Coralie Fargeat, a French filmmaker known for her work in the 
+                horror genre. She gained international attention with her 2017 film Revenge, a brutal and feminist take on the rape-revenge 
+                genre. Fargeat is known for her strong visual style and subverting traditional horror tropes. In The Substance, she continues 
+                to explore themes of bodily autonomy, societal expectations, and the consequences of self-inflicted harm. She also wrote the 
+                screenplay, showcasing her unique voice in combining horror with satirical social commentary.
+            </div>
+
+            <div class="flex-box">
+                <b>Genre</b> <br>The film is a mix of body horror, psychological horror, and satire, a combination that makes it both unsettling 
+                and thought-provoking. It delves into the extreme consequences of the beauty industry and society's obsession with youth. The 
+                body horror elements are amplified by grotesque transformations, while the psychological horror examines the internal and 
+                emotional struggle of the characters. Additionally, there’s a sharp critique of the entertainment industry, particularly its 
+                exploitation of women as they age.
+            </div>
+
+            <div class="flex-box">
+                <b>Production</b> <br>The film was produced by Neon, a company known for its innovative and daring films, such as Parasite 
+                (2019) and The Lighthouse (2019). The production involved intense work with practical special effects, including extensive 
+                prosthetics and makeup to portray the physical transformation of the characters. The movie also utilized 21,000 liters of 
+                fake blood, making the effects both impressive and unsettling.
+            </div>
+
+            <div class="flex-box">
+                <b>Cinematography & Visual Sytles</b> <br>The Substance is noted for its striking visual style. The cinematography is lush, 
+                using vibrant colors to emphasize the contrast between youth and decay. The film often uses extreme close-ups to accentuate 
+                the grotesque and horrifying transformations of the characters, making the viewer feel uncomfortable and trapped in the 
+                experience. Fargeat's direction keeps the audience engaged with surreal, almost dreamlike sequences, creating a sense of 
+                dread that is visually intense.
+            </div>
+
+            <div class="flex-box">
+                <b>Music</b> <br>The soundtrack features a mix of eerie, atmospheric music and more upbeat, almost ironic tunes, underscoring 
+                the tension between the film’s satirical tone and its horrific content. The soundtrack contributes to the film’s unsettling 
+                vibe, with music that contrasts the on-screen chaos, reinforcing the psychological aspect of the narrative.
+            </div>
+
+            <div class="flex-box">
+                <b>Production Design</b> <br>The film’s production design carefully balances a luxurious yet sterile aesthetic, showing the 
+                high-glamour world of celebrity alongside the dark, hidden consequences of seeking perfection. The contrast in design between 
+                Elisabeth’s old life and Sue’s rise to fame adds to the tension between the two characters.
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
