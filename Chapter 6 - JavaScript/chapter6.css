@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: 'Nunito', sans-serif; /* Sets the font family for the body */
+    background: linear-gradient(135deg, #FFC3A0, #FFB6C1); /* Creates a diagonal gradient background */
+    display: flex; /* Enables flexbox layout for centering content */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    height: 100vh; /* Ensures the body takes up the full viewport height */
+    margin: 0; /* Removes default margin */
+    text-align: center; /* Centers the text in the body */
+}
+
+/* Wrapper for center alignment */
+.wrapper {
+    display: flex; /* Uses flexbox to align elements */
+    flex-direction: column; /* Stacks elements vertically */
+    align-items: center; /* Centers the items horizontally */
+    gap: 20px; /* Adds space between elements */
+}
+
+/* Title Styling */
+.title {
+    font-size: 28px; /* Sets the font size for the title */
+    font-weight: bold; /* Makes the title bold */
+    color: #FF4081; /* Sets the title color */
+    text-shadow: 0 3px 6px rgba(255, 105, 180, 0.4); /* Adds a soft pink shadow to the title */
+    margin-bottom: 10px; /* Adds space below the title */
+}
+
+/* Input Box Container - Arranged in a Row */
+.input-container {
+    display: flex; /* Uses flexbox layout */
+    gap: 20px; /* Adds space between the input boxes */
+}
+
+/* Input & Total Cost Boxes with Arched Top */
+.input-box {
+    display: flex; /* Enables flexbox for the input box */
+    flex-direction: column; /* Stacks items vertically */
+    justify-content: center; /* Centers items vertically */
+    align-items: center; /* Centers items horizontally */
+    gap: 20px; /* Adds space between child elements */
+
+    background: #FFF0F5; /* Sets a light pink background */
+    padding: 20px; /* Adds padding inside the box */
+    padding-top: 30px; /* Adds extra space at the top */
+    width: 300px; /* Sets the width of the input box */
+    height: 300px; /* Sets the height of the input box */
+    text-align: center; /* Centers the text inside the box */
+    font-size: 18px; /* Sets the font size */
+    font-weight: bold; /* Makes the text bold */
+
+    color: #FF4081; /* Sets the text color */
+    border: 3px solid #FF91A4; /* Adds a light pink border */
+    box-shadow: 0 8px 16px rgba(255, 105, 180, 0.2); /* Adds a subtle shadow around the box */
+    transition: 0.3s; /* Adds a smooth transition for hover effects */
+    position: relative; /* Allows for the box to be positioned relative to its normal flow */
+
+    /* Arched Top Effect */
+    border-radius: 180px 180px 0 0; /* Rounds the top corners and keeps the bottom corners squared */
+}
+
+/* Hover Effect for Input Boxes */
+.input-box:hover {
+    transform: scale(1.05); /* Slightly enlarges the box on hover */
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.6); /* Increases the shadow on hover */
+}
+
+/* Input Fields Styling */
+input {
+    width: 100%; /* Makes the input field take up the full width of its container */
+    padding: 10px; /* Adds padding inside the input field */
+    border: none; /* Removes default border */
+    border-radius: 12px; /* Rounds the corners of the input field */
+    font-size: 16px; /* Sets the font size for the input text */
+    background: #FFDEE9; /* Sets a soft pink background color */
+    color: #333; /* Sets the text color to dark gray */
+    outline: none; /* Removes the default outline when the input is focused */
+    text-align: center; /* Centers the input text */
+    transition: 0.3s; /* Smooth transition effect for focus and hover states */
+    border: 2px solid #FF91A4; /* Adds a light pink border */
+}
+
+/* Focus Effect for Input Fields */
+input:focus {
+    background: white; /* Changes background to white when focused */
+    border-color: #FF69B4; /* Changes the border color to a stronger pink */
+}
+
+/* Hover Effect for Input Fields */
+input:hover {
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.6); /* Adds a shadow around the input field when hovered */
+}
+
+/* Button Box Styling */
+.button-box {
+    margin-top: 10px; /* Adds space above the button */
+}
+
+/* Button Styling */
+button {
+    padding: 12px; /* Adds padding inside the button */
+    width: 100%; /* Makes the button take up the full width of its container */
+
+    background: #FF69B4; /* Sets a pink background color */
+    color: white; /* Sets the text color to white */
+
+    border: none; /* Removes default border */
+    border-radius: 12px; /* Rounds the corners of the button */
+    font-size: 18px; /* Sets the font size for the button text */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+    transition: 0.3s; /* Smooth transition effect for hover state */
+    font-weight: 600; /* Makes the button text bold */
+    box-shadow: 0 5px 10px rgba(255, 105, 180, 0.3); /* Adds a soft shadow around the button */
+}
+
+/* Hover Effect for Button */
+button:hover {
+    background: #FF4081; /* Changes background to a deeper pink on hover */
+    transform: scale(1.1); /* Slightly enlarges the button on hover */
+}
+
+/* Total Cost Box Special Styling */
+.input-box p {
+    font-size: 24px; /* Sets the font size for the total cost text */
+    font-weight: bold; /* Makes the total cost text bold */
+    color: #FF4081; /* Sets the color of the total cost text */
+    text-shadow: 0 0 10px #FF91A4; /* Adds a pink glow effect to the total cost text */
+    margin-top: 10px; /* Adds space above the total cost text */
+}
