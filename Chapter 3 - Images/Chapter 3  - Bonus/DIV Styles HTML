@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Styling those divs</title>
+        <link rel="stylesheet" type="text/css" href="chapter3bonus.css">
+    </head>
+
+<body>
+    <div class="divA">div#A</div> 
+    <div class="divB">div#B</div>
+    <div class="divC">div#C</div>
+    <div class="divD">div#D</div>
+</body>
+</html>
