@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Characters & Casts</title> <!--web page title-->
+        <link rel="stylesheet" type="text/css" href="chapter2bonus.css"> <!--the same external stylesheet-->
+    </head>
+
+<body>
+    <!--HEADING SECTION (NAV BUTTONS)-->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="Chapter 2 Bonus.html">&#9762; HOME</a></li>
+                <li><a href="PLOT.html">&#9762; SYNOPSIS</a></li>
+                <li><a href="CHARACTERS.html">&#9762; CHARACTERS & CASTS</a></li>
+                <li><a href="KEY.html">&#9762;  KEY INFORMATION</a></li>
+                <li><a href="REVIEWS.html">&#9733; REVIEWS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--CHARACTERS & CASTS PART-->
+    <div class="characters">
+        <h2>Ready to meet the dream team behind this cinematic wonder? Meet the casts and their roles!</h2>
+        <div class="container"> <!--container for the split screen-->
+            <div class="left1"> <!--left side-->
+                <h2>CHARACTERS</h2>
+                <ul>
+                    <li><b>Elisabeth Sparkle</b> - A once-famous TV star whose career ends due to ageism. Desperate to regain 
+                        her youth, she turns to an experimental serum called "The Substance," leading to horrifying consequences.</li>
+    
+                    <li><b>Sue</b> - The younger, more beautiful version of Elisabeth, created by the serum. She quickly rises 
+                        to fame, overshadowing Elisabeth and eventually attempting to take full control of their shared existence.</li>
+    
+                    <li><b>Dr. Vicky Vance</b> - The scientist behind "The Substance." He oversees its effects but downplays its 
+                        dangers, pushing the product despite its horrifying side effects.</li>
+    
+                    <li><b>Cassandra</b> - A mysterious woman with a connection to Elisabeth’s past, possibly representing an 
+                        ominous warning or an enabler in Elisabeth’s downfall.</li>
+    
+                    <li><b>Monstro Elisasue</b> - The grotesque fusion of Elisabeth and Sue after the serum's misuse.</li>
+                </ul>
+            </div>
+
+            <div class="right1"> <!--right side-->
+                <h2>CASTS</h2>
+                <ul>
+                    <li><b>Demi Moore</b> - An iconic American actress known for Ghost (1990), A Few Good Men (1992), and 
+                        G.I. Jane (1997). She was a major Hollywood star in the ’80s and ’90s and has made a strong comeback 
+                        with The Substance. </li>
+    
+                    <li><b>Margaret Qualley</b> - A rising actress known for Maid (2021), Once Upon a Time in Hollywood (2019), 
+                        and Sanctuary (2022). She is praised for her versatile performances and is the daughter of actress Andie 
+                        MacDowell.</li>
+    
+                    <li><b>Dennis Quaid</b> - A veteran actor known for films like The Right Stuff (1983), The Parent Trap (1998), 
+                        and Far From Heaven (2002). He has had a long and varied career in Hollywood.</li>
+    
+                    <li><b>Isabelle Adjani</b> -  A legendary French actress with multiple César Awards, known for Possession (1981), 
+                        Camille Claudel (1988), and Queen Margot (1994). She is renowned for her intense and emotional performances.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
