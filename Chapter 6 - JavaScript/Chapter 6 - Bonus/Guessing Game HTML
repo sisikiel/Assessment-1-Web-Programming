@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guessing Game!</title> <!--web page title-->
+    <link rel="stylesheet" type="text/css" href="chapter6bonus.css"> <!--External stylesheet linking-->
+
+    <!--Google fonts installing-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+</head>
+
+<body class="cherry-bomb-one-regular"> <!--imports the google font-->
+    <div class="game-wrapper">
+        <!-- Score and Lives Container -->
+        <div class="score-container">
+            <p>❤️ Lives: <span id="lives">3</span></p>
+            <!-- The span with id "lives" will be dynamically updated with the current lives -->
+
+            <p>⭐ Score: <span id="score">0</span></p>
+            <!-- The span with id "score" will be dynamically updated with the current score -->
+
+            <p>🏆 Highest Score: <span id="high-score">0</span></p>
+            <!-- The span with id "high-score" will display the highest score -->
+        </div>
+
+        <!-- Main game container -->
+        <div class="container" id="game-container">
+            <h1 class="game-title">🎨 RGB Colour Guessing Game 🎨</h1>
+            <p>Can you guess the correct colour for: <span id="rgb-value"></span>?</p>
+            <div id="color-options" class="options"></div>
+            <p id="message"></p>
+        </div>
+
+        <!-- Game over screen -->
+        <div class="game-over" id="game-over-box">
+            <h2>Game Over! 💀</h2>
+            <p>You ran out of lives. Your final score is <span id="final-score">0</span>. Better luck next time!</p>
+            <button id="replay">🔄 Play Again</button>
+        </div>
+    </div>
+    <!--link to JS file-->
+    <script src="chapter6bonus.js"></script>
+</body>
+</html>
