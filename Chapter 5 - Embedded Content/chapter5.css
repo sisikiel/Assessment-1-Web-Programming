@@ -1,0 +1,15 @@
+/* Style for the body to center content */
+body {
+    display: flex; /* Enables flexbox for easy centering */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 100vh; /* Sets body height to full viewport height */
+    margin: 0; /* Removes default margin */
+    background-color: #f0f0f0; /* Sets a light gray background color */
+}
+
+/* Style for the video element */
+video {
+    max-width: 80%; /* Ensures the video does not exceed 80% of the viewport width */
+    height: auto; /* Maintains the aspect ratio */
+}
