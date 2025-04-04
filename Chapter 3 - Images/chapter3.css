@@ -1,0 +1,68 @@
+body {
+    font-family: 'Times New Roman', Times, serif; /* Sets the font for the entire document */
+    background-color: aliceblue; /* Light blue background for readability */
+    scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
+}
+
+h1 {
+    text-align: center; /* Centers the main heading */
+    padding-top: 5%; /* Adds space above the heading */
+}
+
+/* Description Section */
+.introduction {
+    text-align: center; /* Centers text */
+    justify-content: center; /* Aligns content evenly */
+    font-size: large; /* Increases font size for readability */
+}
+
+.introduction p {
+    text-align: center; /* Ensures paragraph text is centered */
+}
+
+.introduction ol li {
+    list-style-type: none; /* Removes default list numbering */
+    text-align: center left; /* Incorrect value; likely meant to align left */
+}
+
+/* Image Containers */ 
+.container {
+    display: flex; /* Aligns items in a row */
+    width: 100%; /* Makes container full-width */
+    max-width: 1500px; /* Restricts maximum width */
+    padding-top: 5%; /* Adds space above the container */
+    justify-content: space-around; /* Distributes items evenly */
+}
+
+.image-section {
+    text-align: center; /* Centers content inside */
+    padding: 20px; /* Adds spacing around the image section */
+    background: white; /* White background for contrast */
+    border-radius: 10px; /* Softens corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Adds subtle shadow effect */
+}
+
+.image-section img {
+    width: 100%; /* Ensures images take full width of container */
+    max-width: 350px; /* Restricts image size */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Softens image corners */
+    filter: brightness(1.1); /* Increases brightness */
+    filter: contrast(2); /* Enhances contrast */
+    filter: saturate(3); /* Boosts color saturation */
+}
+
+.image-section img:hover {
+    filter: grayscale(10); /* Converts image to grayscale on hover */
+    transition: filter 0.5s ease-in-out; /* Smooth transition effect */
+}
+
+.image-section p {
+    margin-top: 10px; /* Adds spacing between image and text */
+    font-size: 1.1em; /* Slightly increases text size */
+}
+
+a {
+    color: darkgoldenrod; /* Sets the color for links */
+}
+
