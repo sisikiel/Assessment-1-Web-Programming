@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>The Substance</title>
-        <link rel="stylesheet" type="text/css" href="chapter2.css">
+        <title>The Substance</title> <!--Web page title-->
+        <link rel="stylesheet" type="text/css" href="chapter2.css"> <!--Linking external css stylesheet-->
     </head>
 
 <body>
@@ -54,13 +54,14 @@
         </p>
     </div>
 
-    <hr>
+    <hr> <!--line divider-->
 
     <!--CHARACTERS & CASTS PART-->
     <div class="characters">
         <h2>Ready to meet the dream team behind this cinematic wonder? Meet the casts and their roles!</h2>
-        <div class="container">
-            <div class="left1">
+
+        <div class="container"> <!--container for split screen-->
+            <div class="left1"> <!--left side-->
                 <h2 id="CHARACTERS">CHARACTERS</h2>
                 <ul>
                     <li><b>Elisabeth Sparkle</b> - A once-famous TV star whose career ends due to ageism. Desperate to regain 
@@ -79,7 +80,7 @@
                 </ul>
             </div>
 
-            <div class="right1">
+            <div class="right1"> <!--right side-->
                 <h2 id="CASTS">CASTS</h2>
                 <ul>
                     <li><b>Demi Moore</b> - An iconic American actress known for Ghost (1990), A Few Good Men (1992), and 
@@ -106,8 +107,8 @@
     <div class="keyinformation">
         <h2 id="KEY">What are some basic infos you have to know about this movie?</h2>
 
-        <div class="flex-container">
-            <div class="flex-box">
+        <div class="flex-container"> <!--main box container-->
+            <div class="flex-box"> <!--small boxes under the main box-->
                 <b>Director & Writer</b> <br>The Substance is directed by Coralie Fargeat, a French filmmaker known for her work in the 
                 horror genre. She gained international attention with her 2017 film Revenge, a brutal and feminist take on the rape-revenge 
                 genre. Fargeat is known for her strong visual style and subverting traditional horror tropes. In The Substance, she continues 
@@ -159,10 +160,10 @@
         <h2 id="REVIEWS">Still doubting to watch? Here are some honest reviews from people!</h2>
     </div>
 
-    <div class="flex-container">
-        <div class="flex-box">
-            <ol>
-                <li>&#9733; 9/10 - Future Cult Classic</li>
+    <div class="flex-container"> <!--same main box as the previous one-->
+        <div class="flex-box"> <!--same boxes as the previous one-->
+            <ol> <!--ordered list for the reviews-->
+                <li>&#9733; 9/10 - Future Cult Classic</li> 
             </ol>
             <p>Every scene of this film wowed me at TIFF. The casting, atmosphere, visual and sound design, 
                 music, and, of course, the symbolism of it all. Demi Moore and Margaret Qualley couldn't have been more perfectly 
@@ -235,8 +236,10 @@
 
     <!--ENDING PART-->
         <div class="endingcontainer">
-        <h1>IT'LL <br> CHANGE YOUR <br>LIFE.</h1>
-        <h1><a href="https://www.imdb.com/title/tt17526714/?ref_=tturv_ov" target="_blank">WATCH NOW</a></h1>
+        <h1>IT'LL <br> CHANGE YOUR <br>LIFE.</h1> <!--"br" is for breaking sentences-->
+        <h1><a href="https://www.imdb.com/title/tt17526714/?ref_=tturv_ov" target="_blank">WATCH NOW</a></h1> 
+        <!--target ="_blank" allows the user to open another tab as they click on the link-->
     </div>
+    
 </body>
 </html>
