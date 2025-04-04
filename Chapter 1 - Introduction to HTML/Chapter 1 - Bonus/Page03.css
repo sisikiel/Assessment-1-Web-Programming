@@ -1,0 +1,105 @@
+/* Split screen text layout */ 
+.container {
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-between; /* Spreads elements apart */
+    padding-right: 1%; /* Adds right padding */
+}
+
+/* Styling for first text block */
+.text1 {
+    flex: 1; /* Allows flexible width */
+    margin-left: 1%; /* Adds left margin */
+    margin-top: 0%; /* Keeps text at the top */
+    font-size: 60%; /* Sets smaller font size */
+}
+
+/* Styling for second text block */
+.text2 {
+    flex: 1; /* Allows flexible width */
+    margin-right: 0%; /* No right margin */
+    margin-top: 1%; /* Slight top margin */
+    font-size: 110%; /* Increases font size */
+}
+
+/* Left section styling */
+.left {
+    flex: 1; /* Allows flexible width */
+    margin-left: 1%; /* Adds left margin */
+}
+
+/* Right section styling */
+.right {
+    flex: 1; /* Allows flexible width */
+    margin-right: 1%; /* Adds right margin */
+}
+
+/* Image styling */
+.image img {
+    flex: 1; /* Ensures image flexibility in flex container */
+    width: 720px; /* Sets image width */
+    height: auto; /* Maintains aspect ratio */
+    margin: 1px; /* Adds minimal margin around image */
+}
+
+/* Navigation menu styling */
+nav ul {
+    position: sticky; /* Keeps navigation visible when scrolling */
+    margin-left: 27%; /* Moves menu towards the center */
+    margin-top: 20px; /* Adds space above menu */
+    list-style-type: none; /* Removes default bullet points */
+    padding-bottom: 1%; /* Adds bottom padding */
+    font-weight: bold; /* Makes text bold */
+    display: flex; /* Displays menu items in a row */
+}
+
+/* Styling for navigation links */
+nav ul li a {
+    text-decoration: none; /* Removes underline from links */
+    margin: 20px; /* Adds space around links */
+    color: black; /* Sets text color */
+}
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+    color: darkgrey; /* Changes text color on hover */
+}
+
+/* Vertical HR (horizontal rule) design */
+.vertical-hr {
+    border: 0; /* Removes default border */
+    margin: 0; /* Removes default margin */
+    border-left: 3px solid black; /* Creates a vertical line */
+    height: 20px; /* Sets height of the vertical line */
+    float: left; /* Aligns the line to the left */
+}
+
+/* Body styling */
+body {
+    margin: 1%; /* Adds margin around the body */
+}
+
+/* Header (h2) styling */
+h2 {
+    text-align: center; /* Centers the heading text */
+}
+
+/* Table styling */
+table {
+    width: 100%; /* Ensures table takes full width */
+    border-collapse: collapse; /* Removes space between borders */
+    table-layout: fixed; /* Ensures equal column widths */
+}
+
+/* Table header and cell styling */
+th, td {
+    border: 1px solid black; /* Adds a black border around cells */
+    text-align: center; /* Centers text in cells */
+    padding: 8px; /* Adds spacing inside cells */
+    width: 33.33%; /* Ensures equal column widths */
+    height: 50px; /* Ensures equal row height */
+}
+
+/* Code element styling */
+code {
+    font-family: 'Times New Roman', Times, serif; /* Sets font style for code elements */
+}
