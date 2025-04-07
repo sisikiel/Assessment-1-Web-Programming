@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Soundboard</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" type="text/css" href="chapter5bonus.css">
+</head>
+
+<body>
+    <div>
+        <main>
+            <!-- Main title of the soundboard -->
+            <h1>Alan Partridge Soundboard</h1>
+            <!-- Subtitle for audio samplers -->
+            <h2>Audio Samplers</h2>
+            <!-- Section where sound buttons will be dynamically added -->
+            <section id="soundboard" aria-label="Alan Partridge Audio Clips"></section>
+        </main>
+    </div>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="chapter5bonus.js"></script>
+</body>
+</html>
