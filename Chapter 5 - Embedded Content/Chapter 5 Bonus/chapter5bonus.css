@@ -1,0 +1,98 @@
+/* Importing Google font "Quicksand" */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+/* General body styling */
+body {
+  font-family: 'Quicksand', sans-serif; /* Applying the imported font */
+  background: url('3D\ Sine\ Ripple.gif') no-repeat center center fixed; /* Background image */
+  background-size: cover; /* Ensures the background covers the whole screen */
+  color: #333; /* Default text color */
+  text-align: center; /* Centers text */
+  padding: 2rem; /* Adds padding around the body content */
+}
+
+/* Styling for main title */
+h1 {
+  font-size: 2.8rem;
+  color: #ff69b4; /* Hot pink color */
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px #fff; /* Adds a subtle white shadow to the text */
+}
+
+/* Styling for subtitle */
+h2 {
+  color: #ffcce0; /* Light pink color */
+}
+
+/* Styling for the soundboard section */
+#soundboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Creates a responsive grid */
+  gap: 1.5rem; /* Adds space between the buttons */
+  max-width: 1000px; /* Limits the maximum width of the grid */
+  margin: auto; /* Centers the grid on the page */
+  padding-top: 100px; /* Adds space above the grid */
+}
+
+/* Styling for each sound button */
+.sound-button {
+  background: #fff0f5; /* Light pink background */
+  border: 3px solid #ffb6c1; /* Soft pink border */
+  border-radius: 20px; /* Rounded corners */
+  padding: 1.2rem;
+  font-size: 1rem;
+  color: #ff4081; /* Bright pink color for text */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+  transition: all 0.2s ease; /* Smooth transition for changes like hover */
+  box-shadow: 0 6px 15px rgba(255, 182, 193, 0.3); /* Adds a soft shadow */
+  display: flex;
+  flex-direction: column; /* Aligns boxes vertically */
+  align-items: center; /* Centers boxes horizontally */
+  gap: 0.4rem; /* Adds space between icon, text, and visualizer */
+}
+
+/* Hover effect for sound buttons */
+.sound-button:hover {
+  background: #ffe0ef; /* Lightens the background on hover */
+  transform: scale(1.05); /* Slightly enlarges the button */
+  box-shadow: 0 10px 20px rgba(255, 182, 193, 0.4); /* Enhances the shadow */
+}
+
+/* Icon styling inside the button */
+.sound-button i {
+  font-size: 1.6rem;
+  background: #ffcce0; /* Light pink background */
+  color: #fff; /* White color for the icon */
+  padding: 0.4rem;
+  border-radius: 50%; /* Makes the icon circular */
+  box-shadow: 0 2px 5px rgba(255, 182, 193, 0.4); /* Adds a subtle shadow to the icon */
+}
+
+/* Visualizer bar container */
+.visualizer {
+  display: flex;
+  gap: 3px; /* Space between bars */
+  height: 16px; /* Height of the visualizer */
+}
+
+/* Individual visualizer bars */
+.bar {
+  width: 4px;
+  background: #ff69b4; /* Hot pink color for the bars */
+  border-radius: 10px; /* Rounded corners for the bars */
+  height: 4px; /* Initial height of the bars */
+  opacity: 0.3; /* Initial opacity */
+}
+
+/* Animations for the visualizer bars when the sound is playing */
+.sound-button.playing .bar:nth-child(1) { animation: jelly 0.3s ease infinite alternate; }
+.sound-button.playing .bar:nth-child(2) { animation: jelly 0.4s ease infinite alternate; }
+.sound-button.playing .bar:nth-child(3) { animation: jelly 0.5s ease infinite alternate; }
+.sound-button.playing .bar:nth-child(4) { animation: jelly 0.4s ease infinite alternate; }
+.sound-button.playing .bar:nth-child(5) { animation: jelly 0.3s ease infinite alternate; }
+
+/* Jelly animation for the visualizer bars */
+@keyframes jelly {
+  0% { height: 4px; opacity: 0.2; }
+  100% { height: 16px; opacity: 1; } /* Bars expand and become fully opaque */
+}
